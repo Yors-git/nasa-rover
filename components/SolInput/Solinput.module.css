@@ -1,0 +1,12 @@
+.maxVal {
+	font-size: 12px;
+	margin-top: 2px;
+}
+
+.button {
+	background-color: black;
+	padding: 1px 3px;
+	border: 1px solid gray;
+	border-radius: 3px;
+	margin-left: 3px;
+}

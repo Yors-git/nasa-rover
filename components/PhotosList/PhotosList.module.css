@@ -1,0 +1,15 @@
+.spinner {
+	display: flex;
+	justify-content: center;
+	padding: 50px;
+}
+
+.thumb {
+	max-height: 162px;
+	min-height: 162px;
+}
+
+.card {
+	max-height: 360px;
+	height: 360px;
+}

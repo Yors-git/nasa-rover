@@ -1,0 +1,49 @@
+.screenContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  font-family: monospace;
+  margin-top: 70px;
+}
+
+.screenContainer::before {
+  background: linear-gradient(
+      to bottom left,
+      rgba(1, 65, 255, 0),
+      rgba(1, 65, 255, 0),
+      rgba(1, 65, 255, 0.3)
+    );
+  border-radius: 70%;
+  width: 480px;
+  height: 360px;
+  margin-left: -400px;
+}
+
+.screenContainer::after {
+  background: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
+  width: 340px;
+  height: 280px;
+  z-index: -1;
+}
+
+.screenContainer::before,
+.screenContainer::after {
+  content: '';
+  left: 70%;
+  position: absolute;
+  filter: blur(45px);
+  transform: translateZ(0);
+}
+
+.mainInfoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainInfoText {
+  margin: 50px 200px;
+  text-align: center;
+}

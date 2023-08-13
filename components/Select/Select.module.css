@@ -1,0 +1,15 @@
+.dropdownContainer {
+	display: flex;
+	align-items: center;
+	margin: 15px 0;
+}
+
+.dropdownContLabel {
+	width: 30%;
+	padding-left: 20px;
+}
+
+.dropdownSelect {
+	width: 70%;
+	padding-right: 30px;
+}
